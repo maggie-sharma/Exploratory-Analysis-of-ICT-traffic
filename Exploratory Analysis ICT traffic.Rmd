@@ -1,0 +1,36 @@
+---
+title: "Exploratory Analysis of Wichita Traffic Accidents"
+author: "Maggie Sharma"
+date: "11/23/2021"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+# Purpose
+Explore publicly available traffic accident data for Wichita, KS using Excel, SQL, and Tableau
+
+## Guiding Questions
+
+* What day of the week has the most traffic accidents?
+* Where do the most traffic accidents occur?
+* What time of day do the most traffic accidents occur?
+* How many accidents occur along the main highways?
+
+# Preparing the Data
+
+
+The data was collected from the City of Wichita’s Open Data Portal via access.wichita.gov. The dataset includes traffic accident reports from February 1, 2020 through April 4, 2021. [source](https://ict-opendata-cityofwichita.hub.arcgis.com/datasets/1a082b52f46148bcb73f09cdd142c894_0/about)
+
+The dataset was exported for initial cleaning to an Excel spreadsheet. No duplicate values were found. As the primary objective of this analysis focuses on location of accident, 29 entries that did not contain the Beat number were removed. Entries without an address were included as long as the Beat number was included. Since all entries occurred in the Wichita metro, missing City entries were filled in with “Wichita.”  To look at time of day of accidents, the time was separated from the date and formatted as time. Columns without data were removed. 
+# Incidents by police beat and day
+
+Using Excel, a PivotTable showing the accidents by day of the week and police beat was created. 
+
+![PivotTable](https://6992f0cfd0fa46058bd921351064a5f7.app.rstudio.cloud/file_show?path=%2Fcloud%2Fproject%2Fpivot+table.png)
