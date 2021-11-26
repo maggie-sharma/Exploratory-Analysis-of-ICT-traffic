@@ -1,18 +1,9 @@
 # Exploratory-Analysis-of-ICT-traffic
 Exploratory data analysis using Excel, SQL, and Tableau
----
-title: "Exploratory Analysis of Wichita Traffic Accidents"
-author: "Maggie Sharma"
-date: "11/23/2021"
-output:
-  pdf_document: default
-  html_document: default
-  word_document: default
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+## Author: Maggie Sharma
+#### Date: 11/23/2021
+
 
 # Purpose
 Explore publicly available traffic accident data for Wichita, KS using Excel, SQL, and Tableau
@@ -35,7 +26,7 @@ The dataset was exported for initial cleaning to an Excel spreadsheet. No duplic
 
 Using Excel, a PivotTable showing the total number of accidents by day of the week and police beat was created. Then the total incidents per day of the week were graphed using Tableau. 
 
-![](Exploratory-Analysis-of-ICT-traffic/pivot table2.png)
+![](https://github.com/maggie-sharma/Exploratory-Analysis-of-ICT-traffic/blob/main/pivot%20table2.png?raw=true)
 
 
 
