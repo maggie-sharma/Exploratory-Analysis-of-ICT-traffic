@@ -34,7 +34,7 @@ The dataset was exported for initial cleaning to an Excel spreadsheet. No duplic
 
 Using Excel, a PivotTable showing the total number of accidents by day of the week and police beat was created. Then the total incidents per day of the week were graphed using Tableau. 
 
-![](pivot table2.png)
+![](Exploratory-Analysis-of-ICT-traffic/pivot table2.png)
 
 
 
