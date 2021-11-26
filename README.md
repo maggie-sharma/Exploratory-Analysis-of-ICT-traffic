@@ -1,4 +1,4 @@
-# Exploratory-Analysis-of-ICT-traffic
+# Exploratory Analysis of ICT Traffic Accidents
 Exploratory data analysis using Excel, SQL, and Tableau
 
 ## Author: Maggie Sharma
@@ -30,14 +30,14 @@ Using Excel, a PivotTable showing the total number of accidents by day of the we
 
 
 
-![](/cloud/project/ICT traffic/tableau chart.png)
+![](https://github.com/maggie-sharma/Exploratory-Analysis-of-ICT-traffic/blob/main/tableau%20chart.png?raw=true)
 
 Through the PivotTable and chart, we see that Friday has the most accidents followed by Thursday. Sunday and Saturday had the least amount of accidents. 
 
 
 Using the values generated with the pivot table on Excel, the percentage of incidents per day were calculated. Conditional formatting was applied to easily identify police beats with higher than average incidents and lower than average incidents. 
 
-![](/cloud/project/ICT traffic/conditional formatting.png)
+![](https://github.com/maggie-sharma/Exploratory-Analysis-of-ICT-traffic/blob/main/conditional%20formatting.png?raw=true)
 
 ### Summary of day of the week analysis 
 
@@ -50,7 +50,7 @@ Using the values generated with the pivot table on Excel, the percentage of inci
 # Location of Traffic Accidents
 
 Importing the Wichita Police Department Beat Finder onto Tableau was not available with Tableau Public. Instead the publicly available Wichita Police Department Beat Finder map was used. 
-![](/cloud/project/ICT traffic/police beat map.png)
+![](https://github.com/maggie-sharma/Exploratory-Analysis-of-ICT-traffic/blob/main/police%20beat%20map.png?raw=true)
 [source](https://www.arcgis.com/apps/webappviewer/index.html?id=f3e02b14547c49c9a63a04e33fba04a4)
 
 Earlier, it was found that beats 19, 31, 37, and 39 appear to have the highest number of accidents. Police beat 31 covers the downtown district of Wichita, but beats 19, 37, and 39 are not downtown. In fact, beat 19 covers a primarily residential suburban area. 
@@ -58,7 +58,7 @@ Earlier, it was found that beats 19, 31, 37, and 39 appear to have the highest n
 
 Since beat 19 is in a more suburban area, it was hypothesized that perhaps beat 19 sees different types of incidents such as animal involved accidents. To look at the breakdown of types of incidents for the four police beats with the highest number of incidents, see the below graph:
 
-![](/cloud/project/ICT traffic/top 4.png)
+![](https://github.com/maggie-sharma/Exploratory-Analysis-of-ICT-traffic/blob/main/top%204.png?raw=true)
 
 
 As we can see beat 19 had a similar breakdown of incident types compared to beats 31, 37, and 39. The majority of incidents were categorized as Motor Veh-In Transport. In fact, there were *no animal related incidents* in police beat 19 despite being a suburban location. 
@@ -68,14 +68,14 @@ As we can see beat 19 had a similar breakdown of incident types compared to beat
 
 
 
-![](/cloud/project/ICT traffic/SQL KELLOGG STATEMENT.png)
+![](https://github.com/maggie-sharma/Exploratory-Analysis-of-ICT-traffic/blob/main/SQL%20KELLOGG%20STATEMENT.png?raw=true)
 
 
 Kellogg Avenue is the main East-West highway in Wichita. Using SQL, the total address that contained ‘Kellogg’ equaled 1,087 and the total incidents equaled 9384. **Accidents occurring on Kellogg accounted for 12% of incidents.**
 
 
 
-![](/cloud/project/ICT traffic/135 total.png)
+![](https://github.com/maggie-sharma/Exploratory-Analysis-of-ICT-traffic/blob/main/135%20total.png?raw=true)
 
 
 I-135 is the main north-south interstate that intersects Wichita. Using SQL, 159 incidents occurred along I-135, which accounts for **2% of incidents.**
@@ -83,9 +83,9 @@ I-135 is the main north-south interstate that intersects Wichita. Using SQL, 159
 
 # Time of Day of Accident Analysis
 
-![](/cloud/project/ICT traffic/TIME OF DAY SQL.png)
+![](https://github.com/maggie-sharma/Exploratory-Analysis-of-ICT-traffic/blob/main/TIME%20OF%20DAY%20SQL.png?raw=true)
 
-![](/cloud/project/ICT traffic/time of day chart.png)
+![](https://github.com/maggie-sharma/Exploratory-Analysis-of-ICT-traffic/blob/main/time%20of%20day%20chart.png?raw=true)
 
 Using SQL and Excel, we can see that the majority of accidents occurred in the afternoon (Noon-5:00p.m.) timeframe. 
 
